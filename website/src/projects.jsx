@@ -3,6 +3,20 @@ export const Projects = ()=>{
     return (
     <>
         <h1>Games made by me</h1>
+        <p>Note: Press ESC to close zoomed in view.
+       
+       <h2>Controls</h2>
+        <ul>
+        Some controls for some games, use logic to decide.
+            <li>Keys: WASD (forward, left, back, right)</li>
+            <li>Player-Jump: Space</li>
+            <li>Fast-Move: Shift + Keys</li>
+            <li>Arrow-keys: Hologram</li>
+            <li>Mouse: Player Direction</li>
+        </ul>
+        
+
+        </p>
         <Games />
         
     </>
