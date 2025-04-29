@@ -12,7 +12,7 @@ export const Projects = ()=>{
             <li>Player-Jump: Space</li>
             <li>Fast-Move: Shift + Keys</li>
             <li>Arrow-keys: Hologram</li>
-            <li>Mouse: Player Direction</li>
+            <li>Mouse: Player/Camera Direction</li>
         </ul>
         
 
