@@ -3,7 +3,8 @@ export const Projects = ()=>{
     return (
     <>
         <h1>Games made by me</h1>
-        <p>Note: Press ESC to close zoomed in view.
+        <p>Note: Press ESC to close zoomed in view.<br></br>
+        It might take some time to load game so wait after clicking button.
        
        <h2>Controls</h2>
         <ul>

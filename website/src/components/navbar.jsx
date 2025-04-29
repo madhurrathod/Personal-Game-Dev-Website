@@ -4,12 +4,12 @@ import { Projects } from "../projects"
 
 export const Navbar=()=>{
 
-    const [currentPage,setPage]= useState("Home")
+    const [currentPage,setPage]= useState("Project")
     
     return <>
     
-        <button onClick={()=>setPage("Home")}>Home</button>
         <button onClick={()=>setPage("Project")}>Games</button>
+        <button onClick={()=>setPage("Home")}>About</button>
 
         {currentPage=="Home" && <Home/>}
         {currentPage=="Project" && <Projects/>}
