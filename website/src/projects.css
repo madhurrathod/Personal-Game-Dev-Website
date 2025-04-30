@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 body{
+    margin-left:50px ;
     @apply bg-gradient-to-r from-black to-black
 }
 p{
@@ -13,7 +14,8 @@ button{
     width: 15vw;
     border-radius: 10px;
     margin: 10px;
-    @apply bg-gradient-to-b from-red-500 to-orange-600 p-6     
+    text-align: center;
+    @apply bg-gradient-to-b from-red-500 to-orange-600 p-6
 }
 a{:hover{cursor:pointer;}}
 

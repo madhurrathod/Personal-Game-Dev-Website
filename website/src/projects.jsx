@@ -5,7 +5,6 @@ import Magnet from "./components/componentFollow"
 export const Projects = ()=>{
     return (
     <>
-
     <div>
         <Magnet padding={50} disabled={false} magnetStrength={50}>
                 <h1>Games made by me</h1>
@@ -28,8 +27,6 @@ export const Projects = ()=>{
             <li>Arrow-keys: Hologram</li>
             <li>Mouse: Player/Camera Direction</li>
         </ul>
-        
-
         </p>
         <Games />
         

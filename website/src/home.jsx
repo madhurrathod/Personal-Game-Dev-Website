@@ -1,14 +1,35 @@
 import Madhur from "./assets/madhur_img2.jpeg"
 import './projects.css'
 import Magnet from "./components/componentFollow"
+import TiltedCard from "./components/titleCard/titlecard"
 
 function Home(){
     return (<>
-        
+
+
         <h1>About Me</h1>
-        <img src={Madhur} />
 
+        <TiltedCard
+  imageSrc={Madhur}
+  altText="Madhur Rathod"
+  captionText="@madhursensei"
+  containerHeight="35vh"
+  containerWidth="20vw"
+  imageHeight="20vw"
+  imageWidth="20vw"
+  rotateAmplitude={30}
+  scaleOnHover={1.2}
+  showMobileWarning={false}
+  showTooltip={true}
+  displayOverlayContent={true}
+  overlayContent={
+    <p className="tilted-card-demo-text">
 
+    </p>
+  }
+/>
+
+        {/* <img src={Madhur} /> */}
     
         <p>Myself Madhur Rathod. I am a passionate Gamer and Game Developer.</p>
         <p>I am also doing Competitive Programming.</p>
@@ -24,7 +45,9 @@ function Home(){
             </Magnet>
         
         <a class="link" href="https://www.linkedin.com/in/madhur-rathod-8a5266220/" target="_blank"><button>LinkedIn</button></a>
+        <a class="link" href="https://www.instagram.com/madhursensei/" target="_blank"><button>Instagram</button></a>
         
+       
 
 
     </>)
