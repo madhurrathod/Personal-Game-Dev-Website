@@ -1,17 +1,27 @@
 import { useState } from "react"
+import "../projects.css"
 
-export const Games = ()=>{
+
+const Games = ()=>{
     const [currentGame, setCurrentGame] = useState("Hidden")
     const [showGame,setShowGame]=useState("")
     
+    function KonsaGame(){
+        return <p>{currentGame}</p>
+    }
+
+
     return (
         <>
+
         <h1>Current Game: {currentGame}</h1>
-        <button onClick={()=>{
+       <a><button onClick={()=>{
             setCurrentGame("Shards of Aether")
             setShowGame(
+        
             <iframe frameborder="0" src="https://itch.io/embed-upload/12200263?color=91d4fd" allowfullscreen="" width="640" height="380"><a href="https://madhurrathod.itch.io/shards-of-aether-webgl-build">Play Shards of Aether on itch.io</a></iframe>
             )
+        
             }}>Shards of Aether</button>
 
         <button onClick={()=>{
@@ -35,18 +45,24 @@ export const Games = ()=>{
             )
             }}>Parkour Prototype</button>
 
-        <a href="https://madhurrathod.itch.io/" target="_blank"><button>Explore More</button></a>
+            </a>
+
+        <a class="link" href="https://madhurrathod.itch.io/" target="_blank"><button>Explore More</button></a>
 
 
         <div>{showGame}</div>
-
+        
+        <a id="hide">
         <button onClick={()=>{
             setShowGame("")
             setCurrentGame("Hidden")
         }}>Hide Game</button>
+        </a>
         </>
 
-    )
+)
 
 
 }
+
+export {Games}
