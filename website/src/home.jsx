@@ -1,14 +1,16 @@
+import Madhur from "./assets/madhur_img2.jpeg"
 function Home(){
     return (<>
         
         <h1>About Me</h1>
-        <img src="https://github.com/madhurrathod/Personal-Game-Dev-Website/blob/main/website/src/assets/madhur_img2.jpeg"/>
+        <img style ={{borderRadius:"50%", border:"solid 5px black"}}     src={Madhur} height={"200px"} width={"200px"}/>
 
 
         <p>Myself Madhur Rathod. I am a passionate Gamer and Game Developer.</p>
         <p>I am also doing Competitive Programming.</p>
         <p>Currently a student at Newton School of Technology 2024-28.</p>
         <p>I'm also sharing Game Dev related knowledge on YouTube.</p>
+        <p>Game Engine: Unity6 with C#</p>
         <h1>Links</h1>
         <a href="https://codeforces.com/profile/madhur_rathod" target="_blank"><button>Codeforces</button></a>
         <a href="https://github.com/MadhurRathod" target="_blank"><button>GitHub</button></a>
