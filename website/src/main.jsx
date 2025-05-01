@@ -8,7 +8,7 @@ import Lightning from './components/lightning/lightning'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
  <Lightning
-    hue={0}
+   
     xOffset={-0.5}
     speed={1}
     intensity={1}

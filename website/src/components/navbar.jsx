@@ -6,12 +6,12 @@ export const Navbar=()=>{
     const [currentPage,setPage]= useState("Project")
     
     return <>
-       <a>
+       <div >
        <button onClick={()=>{
         setPage("Project")
         }}>Games</button>
         <button onClick={()=>{setPage("Home")}}>About</button>
-       </a> 
+       </div> 
 
         {currentPage=="Home" && <Home/>}
         {currentPage=="Project" && <Projects/>}

@@ -15,8 +15,8 @@ function Home(){
   captionText="@madhursensei"
   containerHeight="35vh"
   containerWidth="20vw"
-  imageHeight="20vw"
-  imageWidth="20vw"
+  imageHeight="30vh"
+  imageWidth="30vh"
   rotateAmplitude={30}
   scaleOnHover={1.2}
   showMobileWarning={false}
